@@ -1,0 +1,225 @@
+{
+	"id": "67a3fdf2-47f1-b060-1fda-c9771ba74c9f",
+	"name": "test erggosum",
+	"description": "",
+	"order": [
+		"4be9b020-d6bc-52d0-9a1c-f5283da7594b",
+		"5b07343a-ff53-4af6-f2ad-c18c143e4eb6",
+		"a033e5f1-5d8e-a9e9-3fcf-949f7d580ba6",
+		"00d79e4d-8269-1475-36af-63920c74edcc",
+		"6840595c-033c-4d0a-da2f-c6334e479105",
+		"fec7d4cc-49c2-0435-5cec-5f7978162674"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1607015518714,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "00d79e4d-8269-1475-36af-63920c74edcc",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/company/9228b520-a00e-447e-891c-63e28d907350",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1607035928019,
+			"name": "localhost:8000/api/company/fbb9cd49-a920-4631-ae7c-07402086fd59",
+			"description": "show company",
+			"collectionId": "67a3fdf2-47f1-b060-1fda-c9771ba74c9f",
+			"responses": []
+		},
+		{
+			"id": "4be9b020-d6bc-52d0-9a1c-f5283da7594b",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/company",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1607034538762,
+			"name": "localhost:8000/api/company",
+			"description": "list company",
+			"collectionId": "67a3fdf2-47f1-b060-1fda-c9771ba74c9f",
+			"responses": []
+		},
+		{
+			"id": "5b07343a-ff53-4af6-f2ad-c18c143e4eb6",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/employee",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "67a3fdf2-47f1-b060-1fda-c9771ba74c9f",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8000/api/employee",
+			"description": "list of employee",
+			"descriptionFormat": "html",
+			"time": 1607034306444,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6840595c-033c-4d0a-da2f-c6334e479105",
+			"headers": "Accept: application/json\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/company/9228b520-a00e-447e-891c-63e28d907350",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "67a3fdf2-47f1-b060-1fda-c9771ba74c9f",
+			"data": [
+				{
+					"key": "name",
+					"value": "test2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "localhost:8000/api/company/9228b520-a00e-447e-891c-63e28d907350",
+			"description": "update company",
+			"descriptionFormat": "html",
+			"time": 1607036100193,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a033e5f1-5d8e-a9e9-3fcf-949f7d580ba6",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/company",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "test4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "logo",
+					"value": "sunset.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1607035664004,
+			"name": "localhost:8000/api/company",
+			"description": "save company",
+			"collectionId": "67a3fdf2-47f1-b060-1fda-c9771ba74c9f",
+			"responses": []
+		},
+		{
+			"id": "fec7d4cc-49c2-0435-5cec-5f7978162674",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/company/9228b520-a00e-447e-891c-63e28d907350",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "67a3fdf2-47f1-b060-1fda-c9771ba74c9f",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8000/api/company/9228b520-a00e-447e-891c-63e28d907350",
+			"description": "delete company",
+			"descriptionFormat": "html",
+			"time": 1607036145391,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
